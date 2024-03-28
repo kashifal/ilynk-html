@@ -1,0 +1,1753 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root">
+      <div>
+        <div
+          class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col"
+        >
+          <div
+            class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4"
+          >
+            <div class="flex h-16 shrink-0 items-center">
+              <img
+                class="h-8 w-auto"
+                src="/assets/logo-Bw-_9IkL.png"
+                alt="Your Company"
+              />
+            </div>
+            <nav class="flex flex-1 flex-col">
+              <ul role="list" class="flex flex-1 flex-col gap-y-7">
+                <li>
+                  <ul role="list" class="-mx-2 space-y-1">
+                    <li>
+                      <a
+                        href="#"
+                        class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-sm font-semibold leading-6 text-gray-700"
+                        ><svg
+                          class="text-gray-600"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                          color="currentColor"
+                          fill="none"
+                        >
+                          <path
+                            d="M2 6C2 4.11438 2 3.17157 2.58579 2.58579C3.17157 2 4.11438 2 6 2C7.88562 2 8.82843 2 9.41421 2.58579C10 3.17157 10 4.11438 10 6V8C10 9.88562 10 10.8284 9.41421 11.4142C8.82843 12 7.88562 12 6 12C4.11438 12 3.17157 12 2.58579 11.4142C2 10.8284 2 9.88562 2 8V6Z"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                          ></path>
+                          <path
+                            d="M2 19C2 18.0681 2 17.6022 2.15224 17.2346C2.35523 16.7446 2.74458 16.3552 3.23463 16.1522C3.60218 16 4.06812 16 5 16H7C7.93188 16 8.39782 16 8.76537 16.1522C9.25542 16.3552 9.64477 16.7446 9.84776 17.2346C10 17.6022 10 18.0681 10 19C10 19.9319 10 20.3978 9.84776 20.7654C9.64477 21.2554 9.25542 21.6448 8.76537 21.8478C8.39782 22 7.93188 22 7 22H5C4.06812 22 3.60218 22 3.23463 21.8478C2.74458 21.6448 2.35523 21.2554 2.15224 20.7654C2 20.3978 2 19.9319 2 19Z"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                          ></path>
+                          <path
+                            d="M14 16C14 14.1144 14 13.1716 14.5858 12.5858C15.1716 12 16.1144 12 18 12C19.8856 12 20.8284 12 21.4142 12.5858C22 13.1716 22 14.1144 22 16V18C22 19.8856 22 20.8284 21.4142 21.4142C20.8284 22 19.8856 22 18 22C16.1144 22 15.1716 22 14.5858 21.4142C14 20.8284 14 19.8856 14 18V16Z"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                          ></path>
+                          <path
+                            d="M14 5C14 4.06812 14 3.60218 14.1522 3.23463C14.3552 2.74458 14.7446 2.35523 15.2346 2.15224C15.6022 2 16.0681 2 17 2H19C19.9319 2 20.3978 2 20.7654 2.15224C21.2554 2.35523 21.6448 2.74458 21.8478 3.23463C22 3.60218 22 4.06812 22 5C22 5.93188 22 6.39782 21.8478 6.76537C21.6448 7.25542 21.2554 7.64477 20.7654 7.84776C20.3978 8 19.9319 8 19 8H17C16.0681 8 15.6022 8 15.2346 7.84776C14.7446 7.64477 14.3552 7.25542 14.1522 6.76537C14 6.39782 14 5.93188 14 5Z"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                          ></path></svg
+                        >Dashboard</a
+                      >
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:r0:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            class="text-gray-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M20.774 18C21.5233 18 22.1193 17.5285 22.6545 16.8691C23.7499 15.5194 21.9513 14.4408 21.2654 13.9126C20.568 13.3756 19.7894 13.0714 19 13M18 11C19.3807 11 20.5 9.88071 20.5 8.5C20.5 7.11929 19.3807 6 18 6"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M3.22596 18C2.47666 18 1.88067 17.5285 1.34555 16.8691C0.250089 15.5194 2.04867 14.4408 2.73465 13.9126C3.43197 13.3756 4.21058 13.0714 5 13M5.5 11C4.11929 11 3 9.88071 3 8.5C3 7.11929 4.11929 6 5.5 6"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M8.0838 15.1112C7.06203 15.743 4.38299 17.0331 6.0147 18.6474C6.81178 19.436 7.69952 20 8.81563 20H15.1844C16.3005 20 17.1882 19.436 17.9853 18.6474C19.617 17.0331 16.938 15.743 15.9162 15.1112C13.5201 13.6296 10.4799 13.6296 8.0838 15.1112Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M15.5 7.5C15.5 9.433 13.933 11 12 11C10.067 11 8.5 9.433 8.5 7.5C8.5 5.567 10.067 4 12 4C13.933 4 15.5 5.567 15.5 7.5Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path></svg
+                          >Users<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:r2:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            class="text-gray-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M20.3584 13.3567C19.1689 14.546 16.9308 14.4998 13.4992 14.4998C11.2914 14.4998 9.50138 12.7071 9.50024 10.4993C9.50024 7.07001 9.454 4.83065 10.6435 3.64138C11.8329 2.45212 12.3583 2.50027 17.6274 2.50027C18.1366 2.49809 18.3929 3.11389 18.0329 3.47394L15.3199 6.18714C14.6313 6.87582 14.6294 7.99233 15.3181 8.68092C16.0068 9.36952 17.1234 9.36959 17.8122 8.68109L20.5259 5.96855C20.886 5.60859 21.5019 5.86483 21.4997 6.37395C21.4997 11.6422 21.5479 12.1675 20.3584 13.3567Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path>
+                            <path
+                              d="M13.5 14.5L7.32842 20.6716C6.22386 21.7761 4.433 21.7761 3.32843 20.6716C2.22386 19.567 2.22386 17.7761 3.32843 16.6716L9.5 10.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M5.50896 18.5H5.5"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path></svg
+                          >Equipments<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:r4:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="h-6 w-6 text-gray-600"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"
+                            ></path></svg
+                          >Task Centers<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:r6:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            class="text-gray-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M20 7C20 9.76142 17.7614 12 15 12C12.2386 12 10 9.76142 10 7C10 4.23858 12.2386 2 15 2C17.7614 2 20 4.23858 20 7Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path>
+                            <path
+                              d="M15.375 4.5L13.5 7H16.5L14.625 9.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M4 14H6.39482C6.68897 14 6.97908 14.0663 7.24217 14.1936L9.28415 15.1816C9.54724 15.3089 9.83735 15.3751 10.1315 15.3751H11.1741C12.1825 15.3751 13 16.1662 13 17.142C13 17.1814 12.973 17.2161 12.9338 17.2269L10.3929 17.9295C9.93707 18.0555 9.449 18.0116 9.025 17.8064L6.84211 16.7503M13 16.5L17.5928 15.0889C18.407 14.8352 19.2871 15.136 19.7971 15.8423C20.1659 16.3529 20.0157 17.0842 19.4785 17.3942L11.9629 21.7305C11.4849 22.0063 10.9209 22.0736 10.3952 21.9176L4 20.0199"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path></svg
+                          >Maintains<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:r8:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            class="text-gray-600"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M17 4.5C17 5.32843 16.3284 6 15.5 6C14.6716 6 14 5.32843 14 4.5C14 3.67157 14.6716 3 15.5 3C16.3284 3 17 3.67157 17 4.5Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path>
+                            <path
+                              d="M15 20.9999L14.3359 18.384C14.1161 17.5182 13.6615 16.7276 13.0207 16.0965L11.5 14.599M6 11.1526C7 9.18281 8.53767 8.04144 12 8.0005M12 8.0005C12.2186 7.99792 12.5444 7.99714 12.8698 7.9972C13.3747 7.99728 13.6271 7.99732 13.8282 8.09128C14.0293 8.18524 14.2356 8.4317 14.6482 8.92463C14.7664 9.06586 14.8878 9.1924 15 9.27657M12 8.0005L10.7309 9.95871C10.0332 11.0353 9.68429 11.5736 9.67069 12.1388C9.66463 12.3906 9.70617 12.6412 9.79313 12.8775C9.98834 13.4081 10.4922 13.8051 11.5 14.599M15 9.27657C16.1547 10.1425 17.9627 10.4912 20 8.19827M15 9.27657L11.5 14.599"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M4 17.7303L4.67822 17.8916C6.40663 18.3028 8.20324 17.5164 9 16"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path></svg
+                          >Health and Safety<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:ra:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            class="text-gray-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M12 7.5C12 9.433 10.433 11 8.5 11C6.567 11 5 9.433 5 7.5C5 5.567 6.567 4 8.5 4C10.433 4 12 5.567 12 7.5Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path>
+                            <path
+                              d="M13.5 11C15.433 11 17 9.433 17 7.5C17 5.567 15.433 4 13.5 4"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                            ></path>
+                            <path
+                              d="M13.1429 20H3.85714C2.83147 20 2 19.2325 2 18.2857C2 15.9188 4.07868 14 6.64286 14H10.3571C11.4023 14 12.3669 14.3188 13.1429 14.8568"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M19 14V20M22 17L16 17"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                            ></path></svg
+                          >Team Resources<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                    <li>
+                      <div data-headlessui-state="">
+                        <button
+                          class="flex w-full items-center gap-x-3 rounded-md p-2 text-left text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50"
+                          id="headlessui-disclosure-button-:rc:"
+                          type="button"
+                          aria-expanded="false"
+                          data-headlessui-state=""
+                        >
+                          <svg
+                            class="text-gray-600"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                            color="currentColor"
+                            fill="none"
+                          >
+                            <path
+                              d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                            ></path>
+                            <path
+                              d="M12.8638 7.72209L13.7437 9.49644C13.8637 9.74344 14.1837 9.98035 14.4536 10.0257L16.0485 10.2929C17.0684 10.4643 17.3083 11.2103 16.5734 11.9462L15.3335 13.1964C15.1236 13.4081 15.0086 13.8164 15.0736 14.1087L15.4285 15.6562C15.7085 16.8812 15.0636 17.355 13.9887 16.7148L12.4939 15.8226C12.2239 15.6613 11.7789 15.6613 11.504 15.8226L10.0091 16.7148C8.93925 17.355 8.28932 16.8761 8.56929 15.6562L8.92425 14.1087C8.98925 13.8164 8.87426 13.4081 8.66428 13.1964L7.42442 11.9462C6.6945 11.2103 6.92947 10.4643 7.94936 10.2929L9.54419 10.0257C9.80916 9.98035 10.1291 9.74344 10.2491 9.49644L11.129 7.72209C11.609 6.7593 12.3889 6.7593 12.8638 7.72209Z"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path></svg
+                          >Inventory<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            data-slot="icon"
+                            class="ml-auto h-5 w-5 shrink-0 text-gray-400"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mt-auto">
+                  <div
+                    class="group -mx-2 flex justify-between gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
+                  >
+                    <div class="flex items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                        data-slot="icon"
+                        class="h-6 w-6 shrink-0 text-gray-400 group-hover:text-indigo-600"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+                        ></path></svg
+                      >Dark Mode
+                    </div>
+                    <div>
+                      <button
+                        data-slot="control"
+                        class="group relative isolate inline-flex h-6 w-10 cursor-default rounded-full bg-[#174172] bg-zinc-200 p-[3px] ring-1 ring-inset ring-black/5 transition duration-0 ease-in-out [--switch-bg-ring:theme(colors.blue.700/90%)] [--switch-bg:theme(colors.blue.600)] [--switch-ring:theme(colors.blue.700/90%)] [--switch-shadow:theme(colors.blue.900/20%)] [--switch:white] focus:outline-none data-[checked]:bg-[--switch-bg] data-[disabled]:bg-zinc-200 data-[disabled]:data-[checked]:bg-zinc-200 data-[disabled]:opacity-50 data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500 data-[checked]:ring-[--switch-bg-ring] data-[disabled]:data-[checked]:ring-black/5 data-[hover]:data-[checked]:ring-[--switch-bg-ring] data-[hover]:ring-black/15 data-[changing]:duration-200 sm:h-5 sm:w-8 dark:bg-white/5 dark:ring-white/15 dark:[--switch-bg-ring:transparent] dark:data-[checked]:bg-[--switch-bg] dark:data-[disabled]:bg-white/15 dark:data-[disabled]:data-[checked]:bg-white/15 dark:data-[checked]:ring-[--switch-bg-ring] dark:data-[disabled]:data-[checked]:ring-white/15 dark:data-[hover]:data-[checked]:ring-[--switch-bg-ring] dark:data-[hover]:ring-white/25 forced-colors:outline forced-colors:[--switch-bg:Highlight] dark:forced-colors:[--switch-bg:Highlight]"
+                        id="headlessui-switch-:re:"
+                        role="switch"
+                        type="button"
+                        tabindex="0"
+                        aria-checked="false"
+                        data-headlessui-state=""
+                      >
+                        <span
+                          aria-hidden="true"
+                          class="pointer-events-none relative inline-block size-[1.125rem] translate-x-0 rounded-full border border-transparent bg-white shadow ring-1 ring-black/5 transition duration-200 ease-in-out group-data-[checked]:translate-x-4 group-data-[checked]:bg-[--switch] group-data-[disabled]:group-data-[checked]:bg-white group-data-[disabled]:group-data-[checked]:shadow group-data-[checked]:shadow-[--switch-shadow] group-data-[checked]:ring-[--switch-ring] group-data-[disabled]:group-data-[checked]:ring-black/5 sm:size-3.5 sm:group-data-[checked]:translate-x-3"
+                        ></span>
+                      </button>
+                    </div>
+                  </div>
+                </li>
+                <li class="mt-auto">
+                  <a
+                    href="#"
+                    class="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      data-slot="icon"
+                      class="h-6 w-6 shrink-0 text-gray-400 group-hover:text-indigo-600"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"
+                      ></path>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      ></path></svg
+                    >Settings</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="lg:pl-72">
+          <div
+            class="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8"
+          >
+            <button type="button" class="-m-2.5 p-2.5 text-gray-700 lg:hidden">
+              <span class="sr-only">Open sidebar</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                data-slot="icon"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="h-6 w-px bg-gray-200 lg:hidden"
+              aria-hidden="true"
+            ></div>
+            <div class="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
+              <form class="relative flex flex-1" action="#" method="GET">
+                <label for="search-field" class="sr-only">Search</label
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  data-slot="icon"
+                  class="pointer-events-none absolute inset-y-0 left-4 h-full w-5 text-gray-400"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+                ><input
+                  id="search-field"
+                  class="my-auto hidden h-10 min-w-72 rounded-md border border-gray-200 py-2 pl-10 pr-0 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm md:block"
+                  placeholder="Search..."
+                  type="search"
+                  name="search"
+                />
+              </form>
+              <div class="flex items-center gap-x-4 lg:gap-x-6">
+                <button
+                  type="button"
+                  class="relative -m-2.5 rounded-[10px] border border-black/[10%] bg-[#F5F6FA] px-1.5 py-1.5 text-gray-400 hover:text-gray-500"
+                >
+                  <div
+                    class="absolute right-0 top-0 h-1.5 w-1.5 rounded-full bg-[#FF0000]"
+                  ></div>
+                  <span class="sr-only">View notifications</span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    data-slot="icon"
+                    class="h-5 w-5 text-gray-700"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+                    ></path>
+                  </svg>
+                </button>
+                <div
+                  class="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-200"
+                  aria-hidden="true"
+                ></div>
+                <div class="relative" data-headlessui-state="">
+                  <button
+                    class="-m-1.5 flex items-center p-1.5"
+                    id="headlessui-menu-button-:rg:"
+                    type="button"
+                    aria-haspopup="menu"
+                    aria-expanded="false"
+                    data-headlessui-state=""
+                  >
+                    <span class="sr-only">Open user menu</span
+                    ><span
+                      class="mr-4 text-sm font-semibold leading-6 text-gray-900"
+                      aria-hidden="true"
+                      >Hello Kashif</span
+                    ><img
+                      class="h-8 w-8 rounded-full bg-gray-50"
+                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+                      alt=""
+                    /><span class="hidden lg:flex lg:items-center"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                        data-slot="icon"
+                        class="ml-2 h-7 w-7 text-gray-800"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                          clip-rule="evenodd"
+                        ></path></svg
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <main class="min-h-screen bg-[#F8F9FB] py-10">
+            <div class="px-4 sm:px-6 lg:px-8">
+              <div class="rounded-[20px] bg-white px-8 py-6">
+                <div
+                  class="flex flex-wrap justify-between gap-4 sm:items-center"
+                >
+                  <h1 class="text-xl font-medium">
+                    Welcome to Dashboard , 21 - February - 2024
+                  </h1>
+                  <div class="flex items-center gap-2">
+                    <button
+                      class="ml-auto flex items-center gap-2 rounded-[3px] border border-[#174172] bg-white px-6 py-2 text-base font-medium text-[#174172] sm:ml-0"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          stroke="#174172"
+                          d="M15 11.25h.139c.889 0 1.333 0 1.62-.263a.997.997 0 00.062-.061c.262-.287.262-.732.262-1.62v0c0-1.778 0-2.667-.525-3.24a1.997 1.997 0 00-.123-.124c-.574-.525-1.463-.525-3.24-.525H6.917c-1.886 0-2.829 0-3.414.585-.586.586-.586 1.53-.586 3.415v.833c0 .471 0 .707.146.854.147.146.382.146.854.146H5"
+                        ></path>
+                        <path
+                          stroke="#174172"
+                          d="M5.417 16.39V9.917c0-.943 0-1.415.293-1.707.293-.293.764-.293 1.707-.293h5.166c.943 0 1.415 0 1.707.293.293.292.293.764.293 1.707v6.473c0 .316 0 .474-.103.55-.104.074-.254.024-.555-.076l-1.668-.556a.528.528 0 00-.173-.042.527.527 0 00-.17.052l-1.728.691c-.092.037-.138.055-.186.055-.048 0-.094-.018-.186-.055l-1.727-.691a.527.527 0 00-.17-.052.527.527 0 00-.174.042l-1.668.556c-.3.1-.45.15-.554.075-.104-.075-.104-.233-.104-.55z"
+                        ></path>
+                        <path
+                          stroke="#174172"
+                          stroke-linecap="round"
+                          d="M7.917 11.25h3.333M7.917 13.75h4.166"
+                        ></path>
+                        <path
+                          stroke="#174172"
+                          d="M14.583 5.417v0c0-1.44 0-2.16-.388-2.65a1.798 1.798 0 00-.295-.296c-.49-.388-1.21-.388-2.65-.388h-2.5c-1.44 0-2.159 0-2.65.388a1.8 1.8 0 00-.295.296c-.388.49-.388 1.21-.388 2.65v0"
+                        ></path></svg
+                      ><span class="">Print</span></button
+                    ><button
+                      class="ml-auto flex gap-3 rounded-[3px] bg-[#174172] px-6 py-2 text-base font-medium text-white sm:ml-0"
+                    >
+                      <span class="">Assign Task</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="mt-4 grid h-full w-full grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3"
+                >
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Speed
+                    </h1>
+                    <div class="">
+                      <div id="gauge-chart1" style="width: 100%">
+                        <svg width="300" height="135">
+                          <g transform="translate(42, 6.75)">
+                            <g class="doughnut" transform="translate(108, 108)">
+                              <g class="arc">
+                                <path
+                                  d="M-101.561,-3.457A6,6,0,0,1,-107.535,-10.014A108,108,0,0,1,34.026,-102.5A6,6,0,0,1,37.63,-94.395L33.756,-85.562A6,6,0,0,1,26.426,-82.26A86.4,86.4,0,0,0,-85.946,-8.843A6,6,0,0,1,-91.915,-3.457Z"
+                                  style="fill: rgb(50, 205, 50)"
+                                ></path>
+                              </g>
+                              <g class="arc">
+                                <path
+                                  d="M43.963,-91.618A6,6,0,0,1,52.366,-94.455A108,108,0,0,1,89.808,-59.988A6,6,0,0,1,87.674,-51.378L79.191,-46.787A6,6,0,0,1,71.379,-48.683A86.4,86.4,0,0,0,42.623,-75.155A6,6,0,0,1,40.088,-82.784Z"
+                                  style="fill: rgb(255, 255, 0)"
+                                ></path>
+                              </g>
+                              <g class="arc">
+                                <path
+                                  d="M90.965,-45.297A6,6,0,0,1,99.34,-42.374A108,108,0,0,1,107.535,-10.014A6,6,0,0,1,101.561,-3.457L91.915,-3.457A6,6,0,0,1,85.946,-8.843A86.4,86.4,0,0,0,79.796,-33.129A6,6,0,0,1,82.482,-40.706Z"
+                                  style="fill: rgb(255, 0, 0)"
+                                ></path>
+                              </g>
+                            </g>
+                            <g class="needle" transform="translate(108, 108)">
+                              <path
+                                d="M -7.703557781990745 -1.5469623455629264 L -18.35560946587188 -60.54275706793213 L 7.703557781990745 -6.553037654437076"
+                                fill="#164473"
+                              ></path>
+                              <circle
+                                cx="0"
+                                cy="-4.050000000000001"
+                                r="8.100000000000001"
+                                fill="#464A4F"
+                              ></circle>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <p class="text-center text-sm font-semibold text-black">
+                        40 Km/h
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Operator
+                    </h1>
+                    <img
+                      src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fHww"
+                      class="h-[150px] w-[150px] rounded-full object-cover shadow-2xl"
+                      alt=""
+                    />
+                    <h1 class="text-base font-semibold text-black">
+                      Mike Johns
+                    </h1>
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Seat Belt
+                    </h1>
+                    <div
+                      class="flex h-[90px] w-[90px] items-center justify-center rounded-full border border-gray-200 object-cover shadow-2xl"
+                    >
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABFCAYAAADzT0AXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAoRSURBVHgB7Zt7cFTVHcd/v3M32WR3EwgkWQyPJASIYhEtKEkgGiw4qJ1x2mnqOHWs40w7TqtVAkXttDOxOn0gD1+lM/xR205trbZTtR0RAUlGScKrpdZSUkmyIOXRDUuA3U2ye/f8+r2hTqFsNrvJvVFn9jOzm71773ns957zu7/f75wQZcmSJUuWLFnGCabxpqHZVezuKzFiMiNhcLEhyiea3Jp1nAwVIXId53j4ULBlU5g+BsZPEAjhzw0vkIQ0otXPEEkZmvfjTAFeOUKkmSQszP8Wob0s6tfBvrM7aP/mOI0jzgvS3KxKW8/NExc/RELL0WAJvnWPXFCCEGnzjDPhx/ePoyjOCrLg6znFk3y3KuENOKqiTBHBgFFN2kz8iWjw5HhMI+cEaWw0/H3Tb0cTP8AUuJpGCUZJHwv/TUhOCSd+7jMn7gi0NA+QQxjkEJPKVixSRBtJeC5kH7XwKJiHt3JmuopE3WZybEL+vPqOaOeuGDmAImdQBtND+Dnz8GPsaoMhSpGgXo7ox8ghHJkyVyxfuTCh1TuoPY+cQKjP4Pj8E9ufPUo248AIEY4n+D7HxLBgmmiS8TWrLbIZ222I79ZYSa7oVfg4jRwEd9JDFVtei/fsjpCN2D5CPAP9czCkJ5PDYGwUe1yuarIZ2wVJsDHTGtLkMKJ5ojZlBtmM7YIoSVhieMhh8MTJZyUlZDP2G1XD8MIRyyWHgRObg3gnn2zGET+EWZyPkZgTmDeabMZ2QVhRCO/95DAsNMAGnyGbsV0QMelD/DlPDoMY56wWdYxsxv6njNtAIMYnyGEwJ4+bpvl3shnbBQltWXuMRXaSw4iWvX0tTwfIZmwX5IqGVcVIfpWTwyiWkgtt2Vwv2YxpUAMsay05jCi1zHSpm8hm7Deqooth8CaQ0wjysJz45I8Q5IJOw+A5ltH6X0MSZc2nyWac8FQPwIv8FznPEVLxv5LN2B7+R7vbQt7K2gGMkmXwJp1x4YXOitIbg9ueeZNsJuUI8d/SdOe02pUZxwtBXfiSiLLSfF1kP6gzscbljr5ADpByhHgr617SuXRzfnndB9EKd5ACgfRih0CLOaWqvjNGej6OriGbEGtZguiNqGE8G9ryXB85QGobwuSD13mHUvSaX332gaJlj6Sdf+je/uOzKLsDka9tbjyyzEH0aVv4rXVBcoj0jCrTVK34yRyJP1O8bFUDpYkY5ptYadpPNoEBsiea495CQ6GMM6QM00uXr+pB0xUfHaMXJt4RYRqPDhrmq+e2bgxRSoQn37R6oeGSVtzeseUuREJayxd7d25sJQdJPUKEEhcfQj0X/AxkqfRP8xL8M/+yps9h8TZFHSynW9fvRTPfReHRh+ooK4q/77QYFqmNalVdDKJchw4VXvw9D5VjJHi5wVc1oAtnLO4KB9qjw9Xjm133Hl0QfwGltdB9SWuW8/Vcv+IXYl1ttmbYk7Y20gXFyx8oI8lZrUR9AVdXJL9KOmH/f2jy+VfPbN98dri6Spat3skkDZQBmKYtwe3rl9I4MaJR7d32/PHegPkYjOMj6N47eGok2ZrA1UgbbnJRwROlS5vmW1sg6FNKeh0//Nxg8My5P5jC90OUdZaFu/wi9mC43S8Gv1Dybvir9Cklfdf9xH7d39MejPa07/DOrENWjGYgr1mCaeS6uD6IcgVed3hm1l2VX3nDkanGDadDoT1Dxhnl7sW5CsqMQLS7/Rc0Towqlol0tx/yzq5pVZoHIIjliV62jgux5ipWSwYnsttdff37eRVL8wxK3IszGS1xQsBTrrJrfz94dJ/zETSNIbiLdnWEfLMX71akDiEHMgc99w8tH33EhT0h1kJSrZKcKpbELJxdgRNeyozcnJycw5HuNuRPHyenGVO0G+lqi4e72w4ac2peVgnpZ1bV8CZ9zP8VBqYG/kNEk+zTSv1KmRTDGYgnvgx2YngxPWs9FVvP5ZYv6h4IdDg6UmwJ/we7OvqjPSve8VbFrei2iIemBTxa5q34+5PeItkw8McNx6PXT2v19BcehRZYDOepnGb7uK4AQt5sKOVHwOnyzZ4finTtc8QnsTEf0iKR6gU9HuIQJZQfNT/ICfOXwfqJbbTpRxce1QcPSnThtEMFsaJW0iosrBeztbSVFkO5lWvxgk/ivs1bUTstv6LufHTyvF7L4JNNjG3JcdaD7uLpqoKVqsQTvB5O111kPUUwZbTQXqx8P0n5rp29r69NGvH6G5pqtIu/h483oSOZ2pYhMJ1Oor2XhfSOXDPR6flQBw7DTaBRMipB/Nes9kqx1ImVYRe5FXf5Snydn6S3J0XJy64Ebzjx9vojyeqafPPKqYYy7oLteRjTYiqNnqjlMaMvW0XT22XnI63GdTq2f/PmjCrJWJDi5WvKMBXWYWFkCV3wOVwpC8CzRVZnF+nE2qA+sI1aWszLrmlszC0Nld8IcR+FwcUyBo9lKpsYNSfQry2Ylk8VugcOX+erp1de+XJahdMXBKnEUi9/E0W+jaNSyhShQbj/vyWOPRmMv9eTVBi04c837saoehTPp3Lc7bHZOJGjpGXtQCTvpabb3Kebm5tHLJJWg/5bVns9Bj+GIY08KRfRaGArdUDzWdT1HlUWy7tyYU//4T2XzvVjHWakp+3Pnsolf0FshCnIsE1j2GvCPAGveuVOmAd6c/ee72yJ0+OpfZmRLXxjoyFa34NnQdMonKpknVwEYde54rmbIHTSkRbc8dS7MNQrkYL8Fg5DNBaYCrDs+Q3df+6+3A+OcNIw7CJGHCGlU25fjnm9HjXbtZHOmqbWlqtr0Lk786vqBtSsxUf/P9cBpy+CJY0D3spFv8PUKUCx6Sg5yq1a7EN6ojrvjT2dgz3tPbqlZVhVUgpSvHhNAefoNfhYT8wO7AriCVZ+xKVlzoRZNT3h7hUnLX/m4isiPR1ncqtubHVpswvrueWwRVN4NFvFWYrwGyLeD+M74V0P+98VKQUprFpSppV+Blo4twkXDhfqnyukarwVg1J49byD4X/uv6TDA927BiOBjvd95TW7rdws1KiGJDmUEbBKRNPE1K9EAx3DTsOUgnhmL7oTN+NL5DzWHffj/fMSdy/NQ3qhf0rNGcvIXnxRJNB+CumH1/Nn1bwLUzAPsdMkGumxf2kjPjZ4H6L194a7ZqQk8wIab5jqkFT5TYmHH7Z8niRXSO+2ja1IRN0NG/Q8WZ5qJgjVpDqdUhAtajZ9PFTBTnwHKYMXi1Y8lHTl7/Rb6w+ZufEnXMq4B3f+H5TuWo3IzFSnU04ZX2XtatyxzJ0wW4BtQVyEJNRXfDMXT84vX3I0Gth1yfaH/sO7B8937eoumbHoxZjiMKa3tbI4KVWtUO0cpt2w/nzK+SeKNjNpx/etp4IvvOKGik/Hx85k1wRanu6juY1P+cumd4j1RExZoeqlLFmyZMmSJcsngf8Ac4CbYKdW1voAAAAASUVORK5CYII="
+                        alt=""
+                      />
+                    </div>
+                    <h1 class="text-base font-semibold text-black">
+                      Seatbelt Fasten
+                    </h1>
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Battery
+                    </h1>
+                    <div class="flex items-center gap-4">
+                      <div class="flex flex-col items-center gap-3">
+                        <div
+                          class="battery relative flex h-40 w-16 flex-col items-center justify-end rounded-xl border-4 border-[#3BC642] bg-white p-[1px]"
+                        >
+                          <div
+                            class="h-[80%] w-full rounded-b-lg bg-[#3A7FE1]"
+                          ></div>
+                          <div
+                            class="absolute -top-4 h-3 w-5 rounded-t-md border border-white bg-[#3BC642]"
+                          ></div>
+                          <div
+                            class="absolute bottom-14 text-base font-bold text-white"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="white"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="h-6 w-6"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div
+                            class="absolute bottom-3 text-base font-bold text-white"
+                          >
+                            80%
+                          </div>
+                        </div>
+                        <h1 class="text-sm font-medium">Battery Voltage</h1>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <div class="flex">
+                          <div class="flex flex-col items-center gap-2">
+                            <h1 class="text-sm font-medium">Battery Voltage</h1>
+                            <svg
+                              class="h-[90px] w-[90px]"
+                              viewBox="0 0 100 100"
+                            >
+                              <circle
+                                cx="50"
+                                cy="50"
+                                r="40"
+                                fill="transparent"
+                                class="stroke-current text-gray-200"
+                              ></circle>
+                              <circle
+                                cx="50"
+                                cy="50"
+                                r="40"
+                                stroke-width="10"
+                                fill="transparent"
+                                class="progress-ring__circle stroke-current text-[#3BC642]"
+                              ></circle>
+                              <text
+                                x="50"
+                                y="50"
+                                alignment-baseline="middle"
+                                font-family="Verdana"
+                                font-size="20"
+                                text-anchor="middle"
+                                font-weight="600"
+                              >
+                                35%
+                              </text>
+                            </svg>
+                          </div>
+                          <div class="flex flex-col items-center gap-2">
+                            <h1 class="text-sm font-medium">Battery Voltage</h1>
+                            <svg
+                              class="h-[90px] w-[90px]"
+                              viewBox="0 0 100 100"
+                            >
+                              <circle
+                                cx="50"
+                                cy="50"
+                                r="40"
+                                fill="transparent"
+                                class="stroke-current text-gray-200"
+                              ></circle>
+                              <circle
+                                cx="50"
+                                cy="50"
+                                r="40"
+                                stroke-width="10"
+                                fill="transparent"
+                                class="progress-ring__circle stroke-current text-[#FF0000]"
+                              ></circle>
+                              <text
+                                x="50"
+                                y="50"
+                                alignment-baseline="middle"
+                                font-family="Verdana"
+                                font-size="20"
+                                text-anchor="middle"
+                                font-weight="600"
+                              >
+                                20%
+                              </text>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="flex flex-col items-center gap-2">
+                          <svg class="h-[90px] w-[90px]" viewBox="0 0 100 100">
+                            <circle
+                              cx="50"
+                              cy="50"
+                              r="40"
+                              fill="transparent"
+                              class="stroke-current text-gray-200"
+                            ></circle>
+                            <circle
+                              cx="50"
+                              cy="50"
+                              r="40"
+                              stroke-width="10"
+                              fill="transparent"
+                              class="progress-ring__circle stroke-current text-[#E2B124]"
+                            ></circle>
+                            <text
+                              x="50"
+                              y="50"
+                              alignment-baseline="middle"
+                              font-family="Verdana"
+                              font-size="20"
+                              text-anchor="middle"
+                              font-weight="600"
+                            >
+                              25%
+                            </text>
+                          </svg>
+                          <h1 class="text-sm font-medium">Battery Voltage</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <p></p>
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Session Violations
+                    </h1>
+                    <div class="py-6 text-left">
+                      <div class="px-8 pt-4">
+                        <div class="flex gap-4 text-[#E2B124]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-[22px] w-[22px]"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              d="M7.793 2.232a.75.75 0 0 1-.025 1.06L3.622 7.25h10.003a5.375 5.375 0 0 1 0 10.75H10.75a.75.75 0 0 1 0-1.5h2.875a3.875 3.875 0 0 0 0-7.75H3.622l4.146 3.957a.75.75 0 0 1-1.036 1.085l-5.5-5.25a.75.75 0 0 1 0-1.085l5.5-5.25a.75.75 0 0 1 1.06.025"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                          <h3
+                            class="pl-6 pt-1 text-[14px] font-[500] leading-[16px] text-black"
+                          >
+                            SHARP TURNS
+                          </h3>
+                          <p
+                            class="px-5 pl-[78px] pt-1 text-center text-[16px] font-[500] leading-[18px] text-[#A83642]"
+                          >
+                            3
+                          </p>
+                        </div>
+                        <div class="flex gap-4 pt-6 text-[#E2B124]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-[22px] w-[22px]"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M12 2a2 2 0 0 1 2 2c0 1.11-.89 2-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m.39 12.79a34 34 0 0 1 4.25.25c.06-2.72-.18-5.12-.64-6.04c-.13-.27-.31-.5-.5-.7l-8.07 6.92c1.36-.22 3.07-.43 4.96-.43M7.46 17c.13 1.74.39 3.5.81 5h2.07c-.29-.88-.5-1.91-.66-3c0 0 2.32-.44 4.64 0c-.16 1.09-.37 2.12-.66 3h2.07c.44-1.55.7-3.39.83-5.21a34.58 34.58 0 0 0-4.17-.25c-1.93 0-3.61.21-4.93.46M12 7S9 7 8 9c-.34.68-.56 2.15-.63 3.96l6.55-5.62C12.93 7 12 7 12 7m6.57-1.33l-1.14-1.33l-3.51 3.01c.55.19 1.13.49 1.58.95zm2.1 10.16c-.09-.03-1.53-.5-4.03-.79c-.01.57-.04 1.16-.08 1.75c2.25.28 3.54.71 3.56.71zm-13.3-2.87l-3.94 3.38l.89 1.48c.02-.01 1.18-.46 3.14-.82c-.11-1.41-.14-2.8-.09-4.04"
+                            ></path>
+                          </svg>
+                          <h3
+                            class="pl-6 pt-1 text-[14px] font-[500] leading-[16px] text-black"
+                          >
+                            SEAT BELT
+                          </h3>
+                          <p
+                            class="px-5 pl-[106px] pt-1 text-center text-[16px] font-[500] leading-[18px] text-[#A83642]"
+                          >
+                            0
+                          </p>
+                        </div>
+                        <div class="flex gap-4 pt-6 text-[#E2B124]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-[22px] w-[22px]"
+                            viewBox="0 0 512 512"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M256 48C123.46 48 16 156.55 16 290.56a243.3 243.3 0 0 0 60.32 160.87c1.18 1.3 2.25 2.6 3.43 3.79C89.2 464 92.07 464 99.57 464s12.43 0 19.93-8.88C152 416.64 202 400 256 400s104.07 16.71 136.5 55.12C400 464 404.82 464 412.43 464s11.3 0 19.82-8.78c1.22-1.25 2.25-2.49 3.43-3.79A243.3 243.3 0 0 0 496 290.56C496 156.55 388.54 48 256 48m-16 64h32v64h-32Zm-96 192H80v-32h64Zm21.49-83.88l-45.25-45.26l22.62-22.62l45.26 45.25ZM278.6 307.4a31 31 0 0 1-7 7a30.11 30.11 0 0 1-35-49L320 224Zm45.28-109.91l45.26-45.25l22.62 22.62l-45.25 45.26ZM432 304h-64v-32h64Z"
+                            ></path>
+                          </svg>
+                          <h3
+                            class="whitespace-nowrap pl-6 pt-1 text-[14px] font-[500] leading-[16px] text-black"
+                          >
+                            OVER SPEED
+                          </h3>
+                          <p
+                            class="px-5 pl-[90px] pt-1 text-center text-[16px] font-[500] leading-[18px] text-[#A83642]"
+                          >
+                            4
+                          </p>
+                        </div>
+                        <div class="flex gap-4 pb-10 pt-6 text-[#E2B124]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-[22px] w-[22px]"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M7 2c1.78 0 2.67 2.16 1.42 3.42C7.16 6.67 5 5.78 5 4a2 2 0 0 1 2-2M5.5 7h3a2 2 0 0 1 2 2v5.5H9V22H5v-7.5H3.5V9a2 2 0 0 1 2-2M21 8h-6v2h6m0 1h-3v2h3m0-11h-6v2h6m0 1h-3v2h3m0 7h-6v2h6m0 4h-6v2h6m0-5h-3v2h3"
+                            ></path>
+                          </svg>
+                          <h3
+                            class="pl-6 pt-1 text-[14px] font-[500] leading-[16px] text-black"
+                          >
+                            IMPACTS
+                          </h3>
+                          <p
+                            class="px-5 pl-[114px] pt-1 text-center text-[16px] font-[500] leading-[18px] text-[#A83642]"
+                          >
+                            1
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-between gap-6 rounded-[20px] border border-black/[10%] bg-white px-8 py-6 shadow-2xl"
+                  >
+                    <h1 class="text-base font-semibold text-[#164473]">
+                      Session Information
+                    </h1>
+                    <div class="">
+                      <div class="grid grid-cols-2 gap-4">
+                        <div
+                          class="rounded-[10px] border border-[#0000001a] bg-white px-3 py-3 shadow-lg"
+                        >
+                          <p
+                            class="text-[10px] font-medium leading-[11px] text-[#979797]"
+                          >
+                            Login Time
+                          </p>
+                          <div class="inline-flex gap-8 pt-4">
+                            <h3
+                              class="text-[14px] font-semibold leading-[16px]"
+                            >
+                              10:45 AM
+                            </h3>
+                            <div
+                              class="-mt-3 rounded-[5px] bg-[#3a80e133] px-1 py-1"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-[29px] w-[29px]"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill="currentColor"
+                                  d="M12 18q2.5 0 4.25-1.75T18 12q0-2.5-1.75-4.25T12 6v6l-4.25 4.25q.875.825 1.963 1.288T12 18m0 4q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="rounded-[10px] border border-[#0000001a] bg-white px-3 py-3 shadow-lg"
+                        >
+                          <p
+                            class="text-[10px] font-medium leading-[11px] text-[#979797]"
+                          >
+                            Login Time
+                          </p>
+                          <div class="inline-flex gap-8 pt-4">
+                            <h3
+                              class="text-[14px] font-semibold leading-[16px]"
+                            >
+                              10:45 AM
+                            </h3>
+                            <div
+                              class="-mt-3 rounded-[5px] bg-[#3a80e133] px-1 py-1"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-[29px] w-[29px]"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill="currentColor"
+                                  d="M12 18q2.5 0 4.25-1.75T18 12q0-2.5-1.75-4.25T12 6v6l-4.25 4.25q.875.825 1.963 1.288T12 18m0 4q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="rounded-[10px] border border-[#0000001a] bg-white px-3 py-3 shadow-lg"
+                        >
+                          <p
+                            class="text-[10px] font-medium leading-[11px] text-[#979797]"
+                          >
+                            Login Time
+                          </p>
+                          <div class="inline-flex gap-8 pt-4">
+                            <h3
+                              class="text-[14px] font-semibold leading-[16px]"
+                            >
+                              10:45 AM
+                            </h3>
+                            <div
+                              class="-mt-3 rounded-[5px] bg-[#3a80e133] px-1 py-1"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-[29px] w-[29px]"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill="currentColor"
+                                  d="M12 18q2.5 0 4.25-1.75T18 12q0-2.5-1.75-4.25T12 6v6l-4.25 4.25q.875.825 1.963 1.288T12 18m0 4q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="rounded-[10px] border border-[#0000001a] bg-white px-3 py-3 shadow-lg"
+                        >
+                          <p
+                            class="text-[10px] font-medium leading-[11px] text-[#979797]"
+                          >
+                            Login Time
+                          </p>
+                          <div class="inline-flex gap-8 pt-4">
+                            <h3
+                              class="text-[14px] font-semibold leading-[16px]"
+                            >
+                              10:45 AM
+                            </h3>
+                            <div
+                              class="-mt-3 rounded-[5px] bg-[#3a80e133] px-1 py-1"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-[29px] w-[29px]"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill="currentColor"
+                                  d="M12 18q2.5 0 4.25-1.75T18 12q0-2.5-1.75-4.25T12 6v6l-4.25 4.25q.875.825 1.963 1.288T12 18m0 4q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h1></h1>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <div class="">
+                    <div class="mx-4 overflow-hidden py-3">
+                      <h3
+                        class="text-center text-[16px] font-semibold leading-[18px] text-[#164473]"
+                      >
+                        Sessions Summaries
+                      </h3>
+                      <div class="mt-8 flow-root">
+                        <div
+                          class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8"
+                        >
+                          <div
+                            class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+                          >
+                            <div class="overflow-hidden">
+                              <table
+                                class="min-w-full divide-y divide-[#0000001a]"
+                              >
+                                <thead class="rounded-[5px] bg-[#F4F9FF]">
+                                  <tr>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap py-3.5 pl-4 text-[12px] font-medium leading-[14px] text-[#33363F] sm:pl-6"
+                                    >
+                                      Session Number
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Date
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Operator Name
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Operator ID
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Session Duration
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Session Idle Time
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Session Movement Time
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Overspeed
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Seatbelt
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Impact
+                                    </th>
+                                    <th
+                                      scope="col"
+                                      class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                    >
+                                      Sharp Turn
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody
+                                  class="divide-y divide-gray-200 bg-white"
+                                >
+                                  <tr>
+                                    <td
+                                      class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] text-[#1C7900] sm:pl-6"
+                                    >
+                                      ASST-000001
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      02-04-2024
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      Rasheem Azam
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0212
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      4
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      3
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] text-[#1C7900] sm:pl-6"
+                                    >
+                                      ASST-000001
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      02-04-2024
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      Rasheem Azam
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0212
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      4
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      3
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] text-[#1C7900] sm:pl-6"
+                                    >
+                                      ASST-000001
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      02-04-2024
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      Rasheem Azam
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0212
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      4
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      3
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] text-[#1C7900] sm:pl-6"
+                                    >
+                                      ASST-000001
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      02-04-2024
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      Rasheem Azam
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0212
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1 Hr
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      4
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      0
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      1
+                                    </td>
+                                    <td
+                                      class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                    >
+                                      3
+                                    </td>
+                                  </tr>
+                                  <tr></tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid pt-2 sm:grid-cols-2">
+                      <div class="mx-4 max-w-2xl overflow-hidden py-3">
+                        <h3
+                          class="text-center text-[16px] font-semibold leading-[18px] text-[#164473]"
+                        >
+                          Breakdown History
+                        </h3>
+                        <div class="mt-8 flow-root">
+                          <div
+                            class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8"
+                          >
+                            <div
+                              class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+                            >
+                              <div class="overflow-hidden">
+                                <table
+                                  class="min-w-full divide-y divide-[#0000001a]"
+                                >
+                                  <thead class="rounded-[5px] bg-[#F4F9FF]">
+                                    <tr>
+                                      <th
+                                        scope="col"
+                                        class="whitespace-nowrap py-3.5 pl-4 text-[12px] font-medium leading-[14px] text-[#33363F] sm:pl-6"
+                                      >
+                                        Complaint Date
+                                      </th>
+                                      <th
+                                        scope="col"
+                                        class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                      >
+                                        Job Completion Date
+                                      </th>
+                                      <th
+                                        scope="col"
+                                        class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                      >
+                                        Breakdown Time
+                                      </th>
+                                      <th
+                                        scope="col"
+                                        class="whitespace-nowrap px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                      >
+                                        Cost Of Repair
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody
+                                    class="divide-y divide-gray-200 bg-white"
+                                  >
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        1 Hr
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        1 Hr
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        1 Hr
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        1 Hr
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr class=""></tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mx-4 max-w-2xl overflow-hidden py-3">
+                        <h3
+                          class="text-center text-[16px] font-semibold leading-[18px] text-[#164473]"
+                        >
+                          Service History
+                        </h3>
+                        <div class="mt-8 flow-root">
+                          <div
+                            class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8"
+                          >
+                            <div
+                              class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
+                            >
+                              <div class="overflow-hidden">
+                                <table
+                                  class="min-w-full divide-y divide-[#0000001a]"
+                                >
+                                  <thead class="rounded-[5px] bg-[#F4F9FF]">
+                                    <tr>
+                                      <th
+                                        scope="col"
+                                        class="py-3.5 pl-4 text-[12px] font-medium leading-[14px] text-[#33363F] sm:pl-6"
+                                      >
+                                        Service Date
+                                      </th>
+                                      <th
+                                        scope="col"
+                                        class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                      >
+                                        Meter Hours
+                                      </th>
+                                      <th
+                                        scope="col"
+                                        class="px-3 py-3.5 text-[12px] font-medium leading-[14px] text-[#33363F]"
+                                      >
+                                        Cost Of Service
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody
+                                    class="divide-y divide-gray-200 bg-white"
+                                  >
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        class="whitespace-nowrap py-4 pl-4 pr-3 text-center text-[10px] font-medium leading-[11px] sm:pl-6"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        02-04-2024
+                                      </td>
+                                      <td
+                                        class="whitespace-nowrap px-3 py-4 text-center text-[10px] font-medium leading-[11px]"
+                                      >
+                                        5$
+                                      </td>
+                                    </tr>
+                                    <tr class=""></tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
